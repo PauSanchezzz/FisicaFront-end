@@ -23,7 +23,7 @@ body {
 
 .btn-results {
   position: absolute;
-  top: 74%;
+  top: 72%;
   left: 76%;
   transform: translate(-50%, -50%);
   z-index: 8;
@@ -111,7 +111,7 @@ body {
   white-space: pre-line;   
   text-align: center;
   top: 46%;
-  left: 56%;
+  left: 50%;
   padding: 0 2% 0 0;
   font-size: 20px;
 }
@@ -285,4 +285,11 @@ body {
 .name-four {
   top: 67%;
   left: 81%;
+}
+.btn-casa{
+  z-index: 9;
+  position: fixed;
+  top:1% ;
+  left: 0.5%;
+  width: 4%;
 }

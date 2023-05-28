@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { HomeButton } from "../components/HomeButton";
 export function Conclusions() {
   return (
     <>
@@ -22,6 +23,7 @@ export function Conclusions() {
           alt=""
         />
       </section>
+      <HomeButton />
       <Footer />
     </>
   );

@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { HomeButton } from "../components/HomeButton";
 export function Theoretical() {
   return (
     <>
@@ -18,6 +19,7 @@ export function Theoretical() {
       <section className="section_image-marTeorico">
         <img className="image-marTeorico" src="/marTeorico.png" alt="" />
       </section>
+      <HomeButton />
       <Footer />
     </>
   );

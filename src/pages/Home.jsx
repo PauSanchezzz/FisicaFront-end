@@ -15,7 +15,9 @@ export function Home() {
           impedit illum perspiciatis.
         </p>
       </article>
-
+      <section className="btn-results">
+        <a href="#">Resultados</a>
+      </section>
       <section className="section_image">
         <img className="image-index" src="/img3.png" alt="" />
       </section>

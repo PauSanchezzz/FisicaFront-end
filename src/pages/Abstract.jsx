@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { HomeButton } from "../components/HomeButton";
 export function Abstract() {
   return (
     <>
@@ -19,6 +20,7 @@ export function Abstract() {
       <section className="section_image-resu">
         <img className="image-resu" src="/public/resumen5.png" alt="" />
       </section>
+      <HomeButton />
       <Footer />
     </>
   );

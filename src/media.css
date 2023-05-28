@@ -1,0 +1,26 @@
+@media(max-width: 513px) {
+  .section_image {
+    justify-items: center;
+    padding: 12% 0 0 0;
+  }
+  .image-index {
+    width: 100%;
+  }
+  .wave{
+      top: 90%;
+        width: 100%;
+  }
+  .title{
+    top: 45%;
+    left: 50%;
+  }
+  .text-index{
+      top: 53%;
+        left: 5%;
+        padding: 10%;
+        font-size: 22px;
+  }
+  .menu li{
+    font-size: 70%;
+  }
+}

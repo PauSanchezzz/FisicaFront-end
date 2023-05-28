@@ -17,20 +17,14 @@
   width: 68%;
   height: auto;
 }
-@media(max-width: 414px){
-.section_image{
-  justify-items: center;
-}
-.image-index{
-  width: 100%;
-}
-}
+
  .wave{
   position: fixed;
   
   top: 55%;
   width: 100%;
 }
+
 .title{
   position: fixed;
   z-index:2;

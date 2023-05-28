@@ -1,0 +1,28 @@
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+export function Conclusions() {
+  return (
+    <>
+      <Header />
+      <section className="title-marTeorico">
+        <h1>Conclusiones</h1>
+      </section>
+      <article className="text-conclu">
+        <p className="text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+          labore maiores, laudantium asperiores libero nesciunt blanditiis atque
+          ducimus quo tenetur quas deleniti id sint. Aliquam nobis numquam
+          impedit illum perspiciatis.
+        </p>
+      </article>
+      <section className="section_image-conclusiones">
+        <img
+          className="image-conclusiones"
+          src="/public/conclusiones.png"
+          alt=""
+        />
+      </section>
+      <Footer />
+    </>
+  );
+}

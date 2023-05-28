@@ -1,82 +1,288 @@
-*{
-  padding:0;
+* {
+  padding: 0;
   margin: 0;
   Overflow: hidden;
 }
- body{
-  margin: /* 10px 0 0 */ 0;
-  background-color: #B7C4E4 ;
+
+body {
+  margin: 0;
+  background-color: #B7C4E4;
 }
+
 .section_image {
   z-index: 1;
   position: relative;
   justify-items: start;
 }
+
 .image-index {
-  z-index: 5;
+
   width: 68%;
   height: auto;
 }
 
- .wave{
+.btn-results {
+  position: absolute;
+  top: 74%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  z-index: 8;
+}
+
+.btn-results a {
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+  text-decoration: none;
+  color: #864C96;
+  padding: 15px 40px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.btn-results:hover a {
+  background: #F8BEEA;
+  color: #7e0c9e;
+  transition: 0.3s;
+}
+
+.section_image-marTeorico {
+  z-index: 1;
+  position: absolute;
+  right: -170px;
+  top: 23px;
+}
+
+.image-marTeorico {
+  width: 72%;
+  height: auto;
+}
+
+.section_image-conclusiones {
+  z-index: 1;
+  position: absolute;
+  right: -460px;
+  top: 55px;
+}
+
+.image-conclusiones {
+  width: 55%;
+  height: auto;
+}
+
+.section_image-resu {
+  z-index: 1;
+  position: absolute;
+  left: 110px;
+  top: 60px;
+}
+
+.image-resu {
+  width: 43%;
+  height: auto;
+}
+
+.wave {
   position: fixed;
-  
   top: 55%;
   width: 100%;
 }
 
-.title{
+.title {
   position: fixed;
-  z-index:2;
+  z-index: 2;
   font-family: 'Luckiest Guy', cursive;
   top: 29%;
-  left: 78%;
+  left: 77%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing:0.050em;
-  color:#864C96;
+  letter-spacing: 0.050em;
+  color: #864C96;
   transform: translate(-50%, -50%);
 }
-.text-index{
+
+.text-index {
+  position: fixed;
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+  z-index: 2;
+  white-space: pre-line;   
+  text-align: center;
+  top: 46%;
+  left: 56%;
+  padding: 0 2% 0 0;
+  font-size: 20px;
+}
+
+.title-resu {
+  position: fixed;
+  z-index: 2;
+  font-family: 'Luckiest Guy', cursive;
+  top: 29%;
+  left: 73%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.050em;
+  color: #864C96;
+  transform: translate(-50%, -50%);
+}
+
+.text-resu {
   position: fixed;
   font-family: 'Atma', cursive;
   font-weight: bold;
   z-index: 2;
   white-space: pre-line;
-  top: 46%;
-  left: 58%;
+  text-align: center;
+  top: 42%;
+  padding: 0 5% 0 0 ;
+  left: 54%;
   font-size: 20px;
 }
-.nav{
+
+.title-marTeorico {
+  position: fixed;
+  z-index: 2;
+  font-family: 'Luckiest Guy', cursive;
+  top: 27%;
+  left: 29%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.050em;
+  color: #864C96;
+  transform: translate(-50%, -50%);
+}
+
+.text-marTeorico {
+  position: fixed;
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+  z-index: 2;
+  white-space: pre-line;
+  text-align: center;
+  top: 38%;
+  padding: 0 0 0 2%;
+  /* left: 5%; */
+  right: 46%;
+  font-size: 23px;
+}
+
+.text-conclu {
+  position: fixed;
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+  z-index: 2;
+  white-space: pre-line;
+  text-align: center;
+  top: 42%;
+  padding: 0 0 0 2%;
+  /* left: 5%; */
+  right: 46%;
+  font-size: 23px;
+}
+
+.image-ud {
+  width: 18%;
+  z-index: 999;
+  position: absolute;
+  top: -3%;
+  left: 2%;
+}
+
+.nav {
   position: fixed;
   width: 100%;
+  height: auto;
   top: 1%;
   left: 0;
-z-index: 3;
+  z-index: 3;
 }
 
-.menu{
-display: flex;
-font-size: 115%;
-padding: 0 10px 0 0;
-justify-content: flex-end;
+.menu {
+  display: flex;
+  font-size: 115%;
+  padding: 0 10px 0 0;
+  justify-content: flex-end;
 }
-.menu li{
-    list-style: none;
+
+.menu li {
+  list-style: none;
   margin: 10px;
-font-size: 100%;
+  font-size: 100%;
 }
- .menu li a{
-text-decoration: none;
-font-family: 'Atma', cursive;
-font-weight: bold;
-color:#5970C5;
-transition: all 0.1s;
- }
 
- .menu li a:hover{
+.menu li a {
+  text-decoration: none;
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+  color: #5970C5;
+  transition: all 0.1s;
+}
+
+.menu li a:hover {
   padding: 5px 10px;
   background-color: #F8BEEA;
   border-radius: 40%;
- }
+}
+
+.image-members {
+  display: flex;
+
+  justify-content: space-around;
+  top: 50%;
+  align-items: end;
+  height: 65vh;
+}
+
+.member {
+  z-index: 999;
+  width: 16%;
+  border-radius: 50%;
+  justify-self: center;
+}
+
+.title-members {
+  position: fixed;
+  z-index: 2;
+  font-family: 'Luckiest Guy', cursive;
+  top: 18%;
+  left: 50%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.050em;
+  color: #864C96;
+  transform: translate(-50%, -50%);
+}
+
+.memeber-text {
+  position: fixed;
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+
+}
+
+.name-one {
+
+  top: 67%;
+  left: 7%;
+}
+
+.name-two {
+  top: 67%;
+  left: 32%;
+}
+
+.name-three {
+  top: 67%;
+  left: 54%;
+}
+
+.name-four {
+  top: 67%;
+  left: 81%;
+}

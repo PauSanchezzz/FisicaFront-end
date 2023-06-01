@@ -22,8 +22,8 @@ body {
 
 .btn-results {
   position: absolute;
-  top: 72%;
-  left: 76%;
+  top: 78%;
+  left: 75%;
   transform: translate(-50%, -50%);
   z-index: 8;
 }
@@ -115,10 +115,10 @@ body {
 .title {
   position: fixed;
   z-index: 2;
-  font-family: "Luckiest Guy", cursive;
-  top: 29%;
+  font-family: 'Luckiest Guy', cursive;
+  top: 23.5%;
   left: 77%;
-  font-size: 50px;
+  font-size: 48px;
   text-align: center;
   line-height: 1;
   letter-spacing: 0.05em;
@@ -133,10 +133,10 @@ body {
   z-index: 2;
   white-space: pre-line;
   text-align: center;
-  top: 46%;
-  left: 50%;
+  top: 38.5%;
+  left: 52%;
   padding: 0 2% 0 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .title-resu {

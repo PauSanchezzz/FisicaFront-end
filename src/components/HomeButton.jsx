@@ -2,7 +2,7 @@ export function HomeButton() {
   return (
     <main>
       <a href="/">
-        <img className="btn-casa" src="/public/casa.png" alt="" />
+        <img className="btn-casa" src="/casa.png" alt="" />
       </a>
     </main>
   );

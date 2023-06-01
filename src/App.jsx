@@ -6,6 +6,7 @@ import { Theoretical } from "./pages/Theoretical";
 import { Abstract } from "./pages/Abstract";
 import { Conclusions } from "./pages/Conclusions";
 import { Materials } from "./pages/Materials";
+import { Results } from "./pages/Results";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/conclusions" element={<Conclusions />} />
         <Route path="/materials" element={<Materials />} />
         <Route path="/justification" element={<Justification />} />
+        <Route path="/results" element={<Results />}></Route>
       </Routes>
     </>
   );

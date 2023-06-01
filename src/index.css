@@ -1,12 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  Overflow: hidden;
+  overflow: hidden;
 }
 
 body {
   margin: 0;
-  background-color: #B7C4E4;
+  background-color: #b7c4e4;
 }
 
 .section_image {
@@ -16,7 +16,6 @@ body {
 }
 
 .image-index {
-
   width: 68%;
   height: auto;
 }
@@ -28,12 +27,36 @@ body {
   transform: translate(-50%, -50%);
   z-index: 8;
 }
-
-.btn-results a {
-  font-family: 'Atma', cursive;
+.btn-calc {
+  position: absolute;
+  top: 72%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  z-index: 8;
+  font-family: "Atma", cursive;
   font-weight: bold;
   text-decoration: none;
-  color: #864C96;
+  background-color: transparent;
+  border-color: transparent;
+  color: #864c96;
+  padding: 0  .5rem;
+  letter-spacing: 2px;
+  font-size: 18px;
+  transition: 0.3s;
+  border-radius: 30%;
+}
+
+.btn-calc:hover {
+  scale: 1.2;
+  background: #f8beea;
+  color: #7e0c9e;
+  transition: 0.3s;
+}
+.btn-results a {
+  font-family: "Atma", cursive;
+  font-weight: bold;
+  text-decoration: none;
+  color: #864c96;
   padding: 15px 40px;
   letter-spacing: 2px;
   font-size: 18px;
@@ -42,7 +65,7 @@ body {
 }
 
 .btn-results:hover a {
-  background: #F8BEEA;
+  background: #f8beea;
   color: #7e0c9e;
   transition: 0.3s;
 }
@@ -92,23 +115,23 @@ body {
 .title {
   position: fixed;
   z-index: 2;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 29%;
   left: 77%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing: 0.050em;
-  color: #864C96;
+  letter-spacing: 0.05em;
+  color: #864c96;
   transform: translate(-50%, -50%);
 }
 
 .text-index {
   position: fixed;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
   z-index: 2;
-  white-space: pre-line;   
+  white-space: pre-line;
   text-align: center;
   top: 46%;
   left: 50%;
@@ -119,45 +142,45 @@ body {
 .title-resu {
   position: fixed;
   z-index: 2;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 19%;
   left: 70%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing: 0.050em;
-  color: #864C96;
+  letter-spacing: 0.05em;
+  color: #864c96;
   transform: translate(-50%, -50%);
 }
 
 .text-resu {
   position: fixed;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
   z-index: 2;
-  white-space:/*  pre- */line;
+  white-space:/*  pre- */ line;
   text-align: center;
   top: 30%;
-  padding: 0 5% 0 0 ;
+  padding: 0 5% 0 0;
   left: 47%;
   font-size: 20px;
 }
 .title-Justification {
   position: fixed;
   z-index: 2;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 19%;
   left: 72%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing: 0.050em;
-  color: #864C96;
+  letter-spacing: 0.05em;
+  color: #864c96;
   transform: translate(-50%, -50%);
 }
 .text-Justification {
   position: fixed;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
   z-index: 2;
   white-space: pre-line;
@@ -181,20 +204,20 @@ body {
 .title-marTeorico {
   position: fixed;
   z-index: 2;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 12%;
   left: 33%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing: 0.050em;
-  color: #864C96;
+  letter-spacing: 0.05em;
+  color: #864c96;
   transform: translate(-50%, -50%);
 }
 
 .text-marTeorico {
   position: fixed;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
   z-index: 2;
   white-space: pre-line;
@@ -204,31 +227,31 @@ body {
   /* left: 5%; */
   right: 39%;
   font-size: 19px;
-  line-height:1.8em;
+  line-height: 1.8em;
 }
-.title-text{
-  font-family: 'Luckiest Guy', cursive;
-  color:#864C96;
+.title-text {
+  font-family: "Luckiest Guy", cursive;
+  color: #864c96;
   font-size: 19px;
-/*   position: fixed;
+  /*   position: fixed;
   align-content: center; */
 }
-.title-materials{
+.title-materials {
   position: fixed;
-    z-index: 2;
-    font-family: 'Luckiest Guy', cursive;
-    top: 16%;
-    left: 50%;
-    font-size: 50px;
-    text-align: center;
-    line-height: 1;
-    letter-spacing: 0.050em;
-    color: #864C96;
-    transform: translate(-50%, -50%);
+  z-index: 2;
+  font-family: "Luckiest Guy", cursive;
+  top: 16%;
+  left: 50%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #864c96;
+  transform: translate(-50%, -50%);
 }
 .text-conclu {
   position: fixed;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
   z-index: 2;
   white-space: pre-line;
@@ -242,14 +265,14 @@ body {
 .title-conclu {
   position: fixed;
   z-index: 2;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 15%;
   left: 29%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing: 0.050em;
-  color: #864C96;
+  letter-spacing: 0.05em;
+  color: #864c96;
   transform: translate(-50%, -50%);
 }
 
@@ -285,15 +308,15 @@ body {
 
 .menu li a {
   text-decoration: none;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
-  color: #5970C5;
+  color: #5970c5;
   transition: all 0.1s;
 }
 
 .menu li a:hover {
   padding: 5px 10px;
-  background-color: #F8BEEA;
+  background-color: #f8beea;
   border-radius: 40%;
 }
 
@@ -312,29 +335,28 @@ body {
   border-radius: 10%;
   justify-self: center;
 }
-.image-member .one{
-width: 1%;
+.image-member .one {
+  width: 1%;
 }
 
 .title-members {
   position: fixed;
   z-index: 2;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 18%;
   left: 50%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
-  letter-spacing: 0.050em;
-  color: #864C96;
+  letter-spacing: 0.05em;
+  color: #864c96;
   transform: translate(-50%, -50%);
 }
 
 .memeber-text {
   position: fixed;
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   font-weight: bold;
-
 }
 
 .name-one {
@@ -356,38 +378,40 @@ width: 1%;
   top: 67%;
   left: 81%;
 }
-.btn-casa{
+.btn-casa {
   z-index: 9;
   position: fixed;
-  top:1% ;
+  top: 1%;
   left: 0.5%;
   width: 4%;
 }
 .technologies {
   display: flex;
   position: fixed;
-/*   top: 25%;
+  /*   top: 25%;
   left: 22%; */
   /* gap: 1em; */
 }
-.materials{
-display: flex;
-position: fixed;
-top: 57%;
-z-index: 20;
-left: 25%;
+.materials {
+  display: flex;
+  position: fixed;
+  top: 57%;
+  z-index: 20;
+  left: 25%;
 }
-.materials img{
-  width: 27%; 
+.materials img {
+  width: 27%;
 }
 
-/* .technologies  */.image-one/* , .image-two */ {
+/* .technologies  */
+.image-one/* , .image-two */ {
   position: fixed;
   width: 15%;
   top: 8%;
   left: 8%;
 }
-/* .technologies  */.image-two {
+/* .technologies  */
+.image-two {
   position: fixed;
   width: 15%;
   top: 51%;
@@ -395,34 +419,36 @@ left: 25%;
   left: 77%;
   /* height: auto; */
 }
-/* .technologies */ .image-three {
+/* .technologies */
+.image-three {
   position: fixed;
   width: 15%;
   top: 45%;
   left: 8%;
 }
-/* .technologies */ .image-five{
+/* .technologies */
+.image-five {
   position: fixed;
   width: 15%;
   top: 11%;
-left: 77%;
+  left: 77%;
 }
 
-.name{
+.name {
   position: fixed;
-    font-family: 'Atma', cursive;
-    font-weight: bold;
+  font-family: "Atma", cursive;
+  font-weight: bold;
 }
-.image-sensor{
+.image-sensor {
   position: fixed;
   width: 48%;
   top: 23%;
   z-index: 10;
   left: 26%;
 }
-.name-materials{
+.name-materials {
   backdrop-filter: blur(15px);
-  font-family: 'Atma', cursive;
+  font-family: "Atma", cursive;
   border-radius: 10px;
   font-weight: bold;
   position: fixed;

@@ -10,10 +10,25 @@ export function Theoretical() {
       </section>
       <article className="text-marTeorico">
         <p className="text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
-          labore maiores, laudantium asperiores libero nesciunt blanditiis atque
-          ducimus quo tenetur quas deleniti id sint. Aliquam nobis numquam
-          impedit illum perspiciatis.
+          <sub className="title-text">Arduino: </sub>Hardware libre y de bajo
+          costo para crear dispositivos interactivos mediante programación de
+          microcontroladores.
+          <br />
+          <sub className="title-text">Sensor de ultrasonido: </sub> Dispositivo
+          que emite ondas sonoras y mide el tiempo de reflexión para calcular la
+          distancia entre el sensor y el objeto.
+          <br />
+          <sub className="title-text">JavaScript: </sub>Lenguaje de programación
+          de alto nivel utilizado para desarrollar el back-end que procesará los
+          datos del Arduino.
+          <br />
+          <sub className="title-text">Tecnologías web: </sub>
+          HTML, CSS, React y JavaScript se utilizan para desarrollar la interfaz
+          de usuario.
+          <br />
+          <sub className="title-text">Charts.js: </sub>Librería de JavaScript
+          que permite mostrar la información al usuario mediante gráficas.
+          <br />
         </p>
       </article>
       <section className="section_image-marTeorico">

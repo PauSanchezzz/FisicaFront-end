@@ -16,7 +16,7 @@ export function Header() {
             <a href="/conclusions">Conclusiones</a>
           </li>
           <li>
-            <a href="/members">Integrantes</a>
+            <a href="/justification">Justificacion</a>
           </li>
         </ul>
       </nav>

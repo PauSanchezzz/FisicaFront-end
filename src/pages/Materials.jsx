@@ -9,32 +9,42 @@ export function Materials() {
         <h1>Materiales</h1>
       </section>
       <section className="section-materials">
-        <section className="technologies">
-          <img
-            className="image-one"
-            src="/public/html-css-javaScript.png"
-            alt="Tecnolgias de Front-end"
-          />
-          <p className="name-technology">{/* Tecnolgias de Front */}</p>
-          <img
-            className="image-two"
-            src="/public/react2.png"
-            alt="Tecnologia de Front-end"
-          />
-          <p className="name-technology">{/* React */}</p>
-          <img
-            className="image-three"
-            src="/public/nodejs.png"
-            alt="Tecnologia de Back-end"
-          />
-          <p className="name-technology-backend">{/* Node Js */}</p>
-        </section>
-        <section className="materials">
-          <img src="/public/arduino.png" alt="Arduino" />
-          <p className="name-materials">{/* Arduino */}</p>
-          <img src="/public/protoboard.png" alt="Protoboard" />
-          <p className="name.materials">{/* Protoboardd */}</p>
-        </section>
+        {/* <section className="technologies"> */}
+        <img
+          className="image-one"
+          src="/react2.png"
+          alt="Tecnolgias de Front-end"
+        />
+        <p className="name one">{/* Tecnolgias de Front */}</p>
+        <img
+          className="image-two"
+          src="/html-css-javaScript2.png"
+          alt="Tecnologia de Front-end"
+        />
+        <p className="name two">{/* React */}</p>
+        <img
+          className="image-three"
+          src="/nodejs.png"
+          alt="Tecnologia de Back-end"
+        />
+        <p className="name">{/* Node Js */}</p>
+        <img className="image-five" src="/chartjs.png" alt="" />
+        {/* </section> */}
+        <img className="image-sensor" src="/sensor.png" alt="" />
+        <article className="name-materials">
+          <p>
+            Tecnologias Front-end (Html, css, JavaScript, React, Chart Js)
+            <br />
+            Tecnologia de Back-end (Node Js) <br />
+            Protoboard
+            <br /> Arduino <br />
+            Sensor de Ultrasonido
+          </p>
+        </article>
+        {/* <section className="image-four"> 
+        <img src="/public/arduino2.png" alt="Arduino" /><p className="name">{/* Arduino </p>
+          <img src="/public/protoboard2.png" alt="Protoboard" /> <p className="name"></p>
+        </section> */}
       </section>
       <HomeButton />
       <Footer />

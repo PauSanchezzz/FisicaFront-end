@@ -50,7 +50,7 @@ body {
 .section_image-marTeorico {
   z-index: 1;
   position: absolute;
-  right: -170px;
+  right: -220px;
   top: 23px;
 }
 
@@ -74,12 +74,12 @@ body {
 .section_image-resu {
   z-index: 1;
   position: absolute;
-  left: 110px;
-  top: 60px;
+  left: 10px;
+  top: 6px;
 }
 
 .image-resu {
-  width: 43%;
+  width: 50%;
   height: auto;
 }
 
@@ -120,8 +120,8 @@ body {
   position: fixed;
   z-index: 2;
   font-family: 'Luckiest Guy', cursive;
-  top: 29%;
-  left: 73%;
+  top: 19%;
+  left: 70%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
@@ -135,20 +135,55 @@ body {
   font-family: 'Atma', cursive;
   font-weight: bold;
   z-index: 2;
-  white-space: pre-line;
+  white-space:/*  pre- */line;
   text-align: center;
-  top: 42%;
+  top: 30%;
   padding: 0 5% 0 0 ;
-  left: 54%;
+  left: 47%;
   font-size: 20px;
 }
+.title-Justification {
+  position: fixed;
+  z-index: 2;
+  font-family: 'Luckiest Guy', cursive;
+  top: 19%;
+  left: 72%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.050em;
+  color: #864C96;
+  transform: translate(-50%, -50%);
+}
+.text-Justification {
+  position: fixed;
+  font-family: 'Atma', cursive;
+  font-weight: bold;
+  z-index: 2;
+  white-space: pre-line;
+  text-align: center;
+  top: 29%;
+  padding: 0 5% 0 0;
+  left: 50%;
+  font-size: 19px;
+}
+.section_image-justificacion {
+  z-index: 1;
+  position: absolute;
+  left: 1%;
+  top: 4%;
+}
 
+.image-justificacion {
+  width: 55%;
+  height: auto;
+}
 .title-marTeorico {
   position: fixed;
   z-index: 2;
   font-family: 'Luckiest Guy', cursive;
-  top: 27%;
-  left: 29%;
+  top: 12%;
+  left: 33%;
   font-size: 50px;
   text-align: center;
   line-height: 1;
@@ -163,18 +198,26 @@ body {
   font-weight: bold;
   z-index: 2;
   white-space: pre-line;
-  text-align: center;
-  top: 38%;
-  padding: 0 0 0 2%;
+  /* text-align: center; */
+  top: 22%;
+  padding: 0 0 0 5%;
   /* left: 5%; */
-  right: 46%;
-  font-size: 23px;
+  right: 39%;
+  font-size: 19px;
+  line-height:1.8em;
+}
+.title-text{
+  font-family: 'Luckiest Guy', cursive;
+  color:#864C96;
+  font-size: 19px;
+/*   position: fixed;
+  align-content: center; */
 }
 .title-materials{
   position: fixed;
     z-index: 2;
     font-family: 'Luckiest Guy', cursive;
-    top: 16.5%;
+    top: 16%;
     left: 50%;
     font-size: 50px;
     text-align: center;
@@ -190,11 +233,24 @@ body {
   z-index: 2;
   white-space: pre-line;
   text-align: center;
-  top: 42%;
+  top: 28%;
   padding: 0 0 0 2%;
   /* left: 5%; */
-  right: 46%;
-  font-size: 23px;
+  right: 45%;
+  font-size: 21px;
+}
+.title-conclu {
+  position: fixed;
+  z-index: 2;
+  font-family: 'Luckiest Guy', cursive;
+  top: 15%;
+  left: 29%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.050em;
+  color: #864C96;
+  transform: translate(-50%, -50%);
 }
 
 .image-ud {
@@ -253,8 +309,11 @@ body {
 .member {
   z-index: 999;
   width: 16%;
-  border-radius: 50%;
+  border-radius: 10%;
   justify-self: center;
+}
+.image-member .one{
+width: 1%;
 }
 
 .title-members {
@@ -279,7 +338,6 @@ body {
 }
 
 .name-one {
-
   top: 67%;
   left: 7%;
 }
@@ -308,8 +366,8 @@ body {
 .technologies {
   display: flex;
   position: fixed;
-  top: 25%;
-  left: 16%;
+/*   top: 25%;
+  left: 22%; */
   /* gap: 1em; */
 }
 .materials{
@@ -322,18 +380,56 @@ left: 25%;
 .materials img{
   width: 27%; 
 }
-.technologies .image-three{
-  width: 17%;
+
+/* .technologies  */.image-one/* , .image-two */ {
+  position: fixed;
+  width: 15%;
+  top: 8%;
+  left: 8%;
 }
-.technologies .image-one/* , .image-two */ {
-  width: 26%;
+/* .technologies  */.image-two {
+  position: fixed;
+  width: 15%;
+  top: 51%;
+  z-index: 11;
+  left: 77%;
+  /* height: auto; */
 }
-.technologies .image-two {
-  width: 18%;
-  height: auto;
+/* .technologies */ .image-three {
+  position: fixed;
+  width: 15%;
+  top: 45%;
+  left: 8%;
 }
-.technologies img,
-.materials img {
-  margin-right: 180px;
-  /* Espacio entre las imágenes */
+/* .technologies */ .image-five{
+  position: fixed;
+  width: 15%;
+  top: 11%;
+left: 77%;
+}
+
+.name{
+  position: fixed;
+    font-family: 'Atma', cursive;
+    font-weight: bold;
+}
+.image-sensor{
+  position: fixed;
+  width: 48%;
+  top: 23%;
+  z-index: 10;
+  left: 26%;
+}
+.name-materials{
+  backdrop-filter: blur(15px);
+  font-family: 'Atma', cursive;
+  border-radius: 10px;
+  font-weight: bold;
+  position: fixed;
+  top: 65%;
+  right: 33%;
+  z-index: 12;
+  text-align: center;
+  font-size: 115%;
+  color: #300458;
 }

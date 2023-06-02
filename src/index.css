@@ -19,7 +19,31 @@ body {
   width: 68%;
   height: auto;
 }
+.btn-references {
+  position: absolute;
+  top: 76%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 8;
+  font-family: "Atma", cursive;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: transparent;
+  color: #864c96;
+  padding: 0 .5rem;
+  letter-spacing: 2px;
+  font-size: 18px;
+  transition: 0.3s;
+  border-radius: 30%;
+}
 
+.btn-references:hover {
+  scale: 1.2;
+  background: #f8beea;
+  color: #7e0c9e;
+  transition: 0.3s;
+}
 .btn-results {
   position: absolute;
   top: 78%;
@@ -29,8 +53,8 @@ body {
 }
 .btn-calc {
   position: absolute;
-  top: 72%;
-  left: 76%;
+  top: 69%;
+  left: 83%;
   transform: translate(-50%, -50%);
   z-index: 8;
   font-family: "Atma", cursive;
@@ -45,13 +69,49 @@ body {
   transition: 0.3s;
   border-radius: 30%;
 }
-
 .btn-calc:hover {
   scale: 1.2;
   background: #f8beea;
   color: #7e0c9e;
   transition: 0.3s;
 }
+
+.chart-prom{
+  font-family: "Atma", cursive;
+  font-weight: bold;
+  position: fixed;
+  font-size: 120%;
+  letter-spacing: 1px;
+  top: 20%;
+  text-align: center;
+  left: 70%;
+  padding: 0 6% 0 0 ;
+}
+.chart-section{
+  position: fixed;
+  width: 50%;
+  top: 17%;
+  left: 12%;
+  z-index: 9;
+}
+.image-results{
+  position: fixed;
+  top: 14%;
+  left: 18%;
+  width: 54%;
+}
+/* .section_image-marTeorico {
+  z-index: 1;
+  position: absolute;
+  right: -220px;
+  top: 23px;
+} */
+
+.image-marTeorico {
+  width: 72%;
+  height: auto;
+}
+
 .btn-results a {
   font-family: "Atma", cursive;
   font-weight: bold;
@@ -152,7 +212,19 @@ body {
   color: #864c96;
   transform: translate(-50%, -50%);
 }
-
+.title-results  {
+  position: fixed;
+  z-index: 2;
+  font-family: "Luckiest Guy", cursive;
+  top: 15%;
+  left: 50%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #864c96;
+  transform: translate(-50%, -50%);
+}
 .text-resu {
   position: fixed;
   font-family: "Atma", cursive;
@@ -227,6 +299,20 @@ body {
   /* left: 5%; */
   right: 39%;
   font-size: 19px;
+  line-height: 1.8em;
+}
+.text-marTeorico-references{
+position: fixed;
+  font-family: "Atma", cursive;
+  font-weight: bold;
+  z-index: 2;
+  white-space: pre-line;
+  /* text-align: center; */
+  top: 22%;
+  padding: 0 0 0 5%;
+  /* left: 5%; */
+  right: 39%;
+  font-size: 14.5px;
   line-height: 1.8em;
 }
 .title-text {

@@ -35,7 +35,6 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Chart.js Line Chart",
     },
   },
 };
@@ -61,14 +60,18 @@ export function Results() {
       ],
     });
   };
-
+  const myDataset = data ? data.datasets.at(0).data : null;
+  const sumatory = data
+    ? myDataset.reduce((antes, despues) => {
+        return antes + despues;
+      })
+    : null;
   return (
     <>
       <Header />
-      <section className="title-marTeorico">
+      <section className="title-results">
         <h1>Resultados</h1>
       </section>
-      <article className="text-marTeorico"></article>
       <section>
         <button className="btn-calc" onClick={getData}>
           Calcular Resultados
@@ -76,7 +79,26 @@ export function Results() {
       </section>
       <HomeButton />
       <section className="chart-section">
-        {data ? <Line options={options} data={data} /> : null}
+        {data ? (
+          <>
+            <Line options={options} data={data} />
+            <p className="chart-prom">
+              La distancia promedio es :<br />
+              {" " + sumatory / myDataset.length}
+              <br />
+              Error de medición distancia utilizando
+              <br />
+              un Metro es: +/- 0,1 cm.
+              <br />
+              Error de medición distancia utilizando el sensor ultrasonido varia
+              dependiendo de la distancia y las ondas de ruido del entorno en el
+              que se realiza la medición.
+            </p>
+            <p></p>
+          </>
+        ) : (
+          <img className="image-results" src="estadistica.png" alt="" />
+        )}
       </section>
       <Footer />
     </>

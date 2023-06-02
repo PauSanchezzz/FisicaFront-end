@@ -11,15 +11,14 @@ export function Abstract() {
       <article className="text-resu">
         <p className="text">
           El proyecto utiliza tecnologías como Arduino, Protoboard, y un sensor
-          de Ultrasonido, además de JavaScript, HTML, CSS y chart.js. El
-          objetivo es recopilar datos de distancia y tiempo utilizando el sensor
-          y el Arduino, para luego calcular la distancia de un objeto en
-          movimiento. La información se presentará mediante gráficas en una
-          página web desarrollada con tecnologías web en el frontend y procesada
-          en el backend con JavaScript. El proyecto requerirá una etapa de
-          diseño y configuración del hardware, así como una etapa de
-          programación del Arduino y el backend. Además, se desarrollará una
-          interfaz de usuario atractiva.
+          de Ultrasonido, además de JavaScript, HTML, CSS, React y chart.js. El
+          objetivo es recopilar datos de distancia de un objeto en movimiento
+          utilizando el sensor y el Arduino. La información se presentará
+          mediante gráficas en una página web desarrollada con tecnologías web
+          en el frontend y procesada en el backend con JavaScript. El proyecto
+          requerirá una etapa de diseño y configuración del hardware, así como
+          una etapa de programación del Arduino y el backend. Además, se
+          desarrollará una interfaz de usuario atractiva.
         </p>
       </article>
 

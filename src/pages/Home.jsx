@@ -13,11 +13,10 @@ export function Home() {
           de un objeto en movimiento utilizando un sensor de ultrasonido, y
           luego visualizar esta información de forma gráfica.
           <br />
-          Daniel García Romero - 20202578089
-          <br />
-          Camilo Alejandro Contreras Morales - 20221578048 <br />
-          Jorge Andrés Gómez Ruiz - 20222572056 <br />
           Paula Andrea Sánchez Torres - 20211578084 <br />
+          Daniel García Romero - 20202578089 <br />
+          Jorge Andrés Gómez Ruiz - 20222572056 <br />
+          Camilo Alejandro Contreras Morales - 20221578048 <br />
         </p>
       </article>
       <section className="btn-results">
